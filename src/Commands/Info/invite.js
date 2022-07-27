@@ -17,7 +17,7 @@ module.exports = {
             .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 256 }))
             .setTitle('Invite me to your server!')
             .setDescription(
-                `[Invite and Authorize](https://discord.com/oauth2/authorize?client_id=848232775798226996&permissions=1077226614&scope=bot) | [Visit Website](https://exxyll.github.io) | [Join Support Server](https://discord.gg/j2MfuWySfD)\n\n[Vote at Top.gg](https://top.gg/bot/848232775798226996)`
+                `[Invite and Authorize](https://discord.com/oauth2/authorize?client_id=900035170659360861&permissions=1644971949559&scope=applications.commands%20bot) | [Visit Website](https://shiroweb-dashboard.221447.repl.co) | [Join Support Server](https://discord.gg/UFTXkxRrWT)\n\n[Github](https://github.com/Uunkn0wnN)`
             )
             .setFooter(`${message.author.tag}`, message.author.displayAvatarURL({ dynamic: true }));
 

@@ -4,9 +4,9 @@ const chalk = require('chalk');
 const prefix = process.env.PREFIX;
 
 client.on('ready', async () => {
-    client.user.setActivity(`${prefix}help | Live at ${client.guilds.cache.size} Servers`, {
+    client.user.setActivity(`PEKOB.NET | Live at ${client.guilds.cache.size} Servers`, {
         type: 'STREAMING',
-        url: 'https://www.twitch.tv/falcxxr',
+        url: 'https://www.twitch.tv/discord.gg/UFTXkxRrWT',
     });
 
     console.log(

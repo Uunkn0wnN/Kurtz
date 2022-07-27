@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 module.exports = {
     name: 'djs',
     description: 'Search for a Class, Properties at Discord.js Docs',
-    emoji: '<:djs:849590909943414806>',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

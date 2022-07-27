@@ -15,19 +15,19 @@ module.exports = {
     run: async (client, message, args) => {
         try {
             const emojis = {
-                config: '⬛',
-                developer: '⬛',
-                fun: '⬛',
-                games: '⬛',
-                guild: '⬛',
-                info: '⬛',
-                levelling: '⬛',
-                moderation: '⬛',
-                owner: '⬛',
-                search: '⬛',
-                user: '⬛',
-                utility: '⬛',
-                welcoming: '⬛',
+                config: '🔳',
+                developer: '🔳',
+                fun: '🔳',
+                games: '🔳',
+                guild: '🔳',
+                info: '🔳',
+                levelling: '🔳',
+                moderation: '🔳',
+                owner: '🔳',
+                search: '🔳',
+                user: '🔳',
+                utility: '🔳',
+                welcoming: '🔳',
             };
             const directories = [...new Set(client.commands.map(cmd => cmd.directory))];
             const formatString = str => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
@@ -54,7 +54,7 @@ module.exports = {
                 .setTitle('Kurtz Help Desk')
                 .setThumbnail(client.user.displayAvatarURL({ size: 512 }))
                 .setDescription(
-                    'Please choose a category in the dropdown menu!\n\n For code source information[Github](https://github.com/Uunkn0wnN)\nSupport me[support server](https://discord.gg/UFTXkxRrWT)'
+                    'Please choose a category in the dropdown menu!\n\nFor code source information [Github](https://github.com/Uunkn0wnN)\nSupport me [support server](https://discord.gg/UFTXkxRrWT)'
                 )
                 .setColor(color);
 
@@ -114,7 +114,7 @@ module.exports = {
         } catch (err) {
             console.log(err);
             message.channel.send({
-                content: 'Uh oh! Something unexcepted. Try to running command again!',
+                content: '[ERROR]! Uh oh! Something unexcepted. Try to running command again!',
             });
         }
     },

@@ -15,7 +15,7 @@ module.exports = {
     run: async (client, message, args) => {
         try {
             const emojis = {
-                config: '832598861813776394',
+                config: '#',
                 developer: '🌌',
                 fun: '🌌',
                 games: '🌌',

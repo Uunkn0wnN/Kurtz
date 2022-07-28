@@ -15,19 +15,19 @@ module.exports = {
     run: async (client, message, args) => {
         try {
             const emojis = {
-                config: '#',
-                developer: '🌌',
-                fun: '🌌',
-                games: '🌌',
-                guild: '🌌',
-                info: '🌌',
-                levelling: '🌌',
-                moderation: '🌌',
-                owner: '🌌',
-                search: '🌌',
-                user: '🌌',
-                utility: '🌌',
-                welcoming: '🌌',
+                config: '🤖',
+                developer: '🤖',
+                fun: '🤖',
+                games: '🤖',
+                guild: '🤖',
+                info: '🤖',
+                levelling: '🤖',
+                moderation: '🤖',
+                owner: '🤖',
+                search: '🤖',
+                user: '🤖',
+                utility: '🤖',
+                welcoming: '🤖',
             };
             const directories = [...new Set(client.commands.map(cmd => cmd.directory))];
             const formatString = str => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;

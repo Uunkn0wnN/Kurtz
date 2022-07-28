@@ -4,7 +4,7 @@ module.exports = {
     name: 'help',
     description: 'Help Commands',
     aliases: ['h'],
-    emoji: '❓',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -15,19 +15,19 @@ module.exports = {
     run: async (client, message, args) => {
         try {
             const emojis = {
-                config: '🔳',
-                developer: '🔳',
-                fun: '🔳',
-                games: '🔳',
-                guild: '🔳',
-                info: '🔳',
-                levelling: '🔳',
-                moderation: '🔳',
-                owner: '🔳',
-                search: '🔳',
-                user: '🔳',
-                utility: '🔳',
-                welcoming: '🔳',
+                config: '🌌',
+                developer: '🌌',
+                fun: '🌌',
+                games: '🌌',
+                guild: '🌌',
+                info: '🌌',
+                levelling: '🌌',
+                moderation: '🌌',
+                owner: '🌌',
+                search: '🌌',
+                user: '🌌',
+                utility: '🌌',
+                welcoming: '🌌',
             };
             const directories = [...new Set(client.commands.map(cmd => cmd.directory))];
             const formatString = str => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
@@ -51,7 +51,7 @@ module.exports = {
 
             const color = message.guild.me.displayHexColor;
             const embed = new MessageEmbed()
-                .setTitle('Kurtz Help Desk')
+                .setTitle('Kurtz Bot')
                 .setThumbnail(client.user.displayAvatarURL({ size: 512 }))
                 .setDescription(
                     'Please choose a category in the dropdown menu!\n\nFor code source information [Github](https://github.com/Uunkn0wnN)\nSupport me [support server](https://discord.gg/UFTXkxRrWT)'

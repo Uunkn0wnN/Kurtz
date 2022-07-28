@@ -3,7 +3,7 @@ const { Message, Client, MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'ping',
     description: 'Returns Websocket Ping Latency',
-    emoji: '📶',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

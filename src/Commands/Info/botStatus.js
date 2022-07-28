@@ -9,7 +9,7 @@ module.exports = {
     name: 'stats',
     description: 'Returns Bot Status',
     aliases: ['bot-status', 'status'],
-    emoji: '📊',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

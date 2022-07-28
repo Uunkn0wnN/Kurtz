@@ -3,7 +3,7 @@ const { Client, Message, MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'invite',
     description: 'Invite Exxyll Today!',
-    emoji: '➕',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

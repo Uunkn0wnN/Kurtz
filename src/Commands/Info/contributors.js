@@ -3,7 +3,7 @@ const https = require('https');
 
 module.exports = {
     name: 'contributors',
-    description: 'Lists of all [exxyll-origin](https://github.com/gifaldyazkaa/exxyll-origin) contributors',
+    description: 'Lists of all contributors',
     emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],

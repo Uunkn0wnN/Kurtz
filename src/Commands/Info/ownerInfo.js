@@ -3,7 +3,7 @@ const { Client, Message, MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'ownerinfo',
     description: 'Returns Information about Exxyll Owner',
-    emoji: '👑',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

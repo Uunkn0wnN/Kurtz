@@ -5,7 +5,7 @@ module.exports = {
     name: 'doublestruck',
     aliases: ['ds'],
     description: 'Convert a text to Double Struck',
-    emoji: ':pause_button:',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

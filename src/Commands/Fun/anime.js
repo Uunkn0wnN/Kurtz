@@ -6,7 +6,7 @@ module.exports = {
     name: 'anime',
     aliases: ['anime-search', 'search-anime'],
     description: 'Search details of anime',
-    emoji: '<a:Peepo_WatchAnime:879957966797828187>',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

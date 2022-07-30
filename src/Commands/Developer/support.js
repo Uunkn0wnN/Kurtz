@@ -4,7 +4,7 @@ module.exports = {
     name: 'support',
     description: 'Support the Developer by donating them!',
     aliases: ['donate'],
-    emoji: '💳',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -16,7 +16,7 @@ module.exports = {
         const embeds = new MessageEmbed()
             .setTitle('Support the Developer!')
             .setDescription(
-                'Support or Donate the Developers to help keeping this project alive!\n\n[Buy me a Coffee](https://ko-fi.com/gifaldyazkaa)'
+                'Support or Donate the Developers to help keeping this project alive!\n\n[join my discord server](https://discord.gg/UFTXkxRrWT)'
             )
             .setFooter(message.author.tag)
             .setColor('BLUE')

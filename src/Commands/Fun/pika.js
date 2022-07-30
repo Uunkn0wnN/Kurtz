@@ -4,7 +4,7 @@ module.exports = {
     name: 'pika',
     description: 'Generate Pikachu Pog Memes',
     aliases: [],
-    emoji: '🤯',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES', 'ATTACH_FILES'],
     /**

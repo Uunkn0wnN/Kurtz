@@ -5,7 +5,7 @@ const prefix = process.env.PREFIX;
 
 client.on('ready', async () => {
     client.user.setActivity(`PEKOB.NET | Live at ${client.guilds.cache.size} Servers`, {
-        type: 'STREAMING',
+        type: 'Competing',
         url: 'https://www.twitch.tv/discord.gg/UFTXkxRrWT',
     });
 

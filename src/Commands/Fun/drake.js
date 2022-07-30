@@ -5,7 +5,7 @@ module.exports = {
     name: 'drake',
     description: 'Generate Drake Memes',
     aliases: [],
-    emoji: '<:drakeYea:880266535908819025>',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES', 'ATTACH_FILES'],
     /**

@@ -5,7 +5,7 @@ module.exports = {
     name: 'tweet',
     description: 'Tweet something!',
     aliases: ['twitter'],
-    emoji: '🐦',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

@@ -3,7 +3,7 @@ const pretty = require('pretty-ms');
 
 module.exports = {
     name: 'uptime',
-    description: "Returns information about Exxyll's Uptime",
+    description: "Returns information about Bot Uptime",
     emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
@@ -14,7 +14,7 @@ module.exports = {
      */
     run: async (client, message, args) => {
         const embed = new MessageEmbed()
-            .setTitle(`🕘 Exxyll's Uptime`)
+            .setTitle(`🕘 Kurtz Uptime`)
             .setDescription(`\`\`\`yml\nStatus : Online\nUptime : ${pretty(client.uptime)}\n\`\`\``)
             .setColor(message.guild.me.displayHexColor);
 

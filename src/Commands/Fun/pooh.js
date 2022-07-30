@@ -5,7 +5,7 @@ module.exports = {
     name: 'pooh',
     description: 'Generate Pooh Memes',
     aliases: [],
-    emoji: '😀',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES', 'ATTACH_FILES'],
     /**

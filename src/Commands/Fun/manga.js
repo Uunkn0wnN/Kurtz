@@ -6,7 +6,7 @@ module.exports = {
     name: 'manga',
     description: 'Search details of manga',
     aliases: [],
-    emoji: ':book:',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -51,7 +51,7 @@ module.exports = {
             .catch(err => {
                 const errembed = new MessageEmbed()
                     .setDescription(
-                        `<:tickNo:863367014092898314> | That manga isn't found!\n\n\`\`\`js\n${err}\n\`\`\``
+                        `❌ | That manga isn't found!\n\n\`\`\`js\n${err}\n\`\`\``
                     )
                     .setColor('RED');
                 message.channel.send({ embeds: [errembed] });

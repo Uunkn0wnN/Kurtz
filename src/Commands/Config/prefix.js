@@ -4,7 +4,7 @@ const prefixSchema = require('../../Models/Prefix');
 module.exports = {
     name: 'set-prefix',
     description: 'Set Custom Prefixes',
-    emoji: '➕',
+    emoji: '**>** ',
     userperm: ['MANAGE_GUILD'],
     botperm: ['MANAGE_GUILD'],
     /**

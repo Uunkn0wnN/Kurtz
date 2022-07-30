@@ -6,7 +6,7 @@ const prefix = process.env.PREFIX;
 module.exports = {
     name: 'reset-prefix',
     description: 'Reset Customized Prefix to Default.',
-    emoji: '🗑️',
+    emoji: '**>** ',
     userperm: ['MANAGE_GUILD'],
     botperm: ['MANAGE_GUILD'],
     /**

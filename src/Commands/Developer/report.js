@@ -3,7 +3,7 @@ const { Client, Message, MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'report',
     description: 'Report a bugs or something to the developers!',
-    emoji: '❗',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -12,7 +12,7 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, message, args) => {
-        const owner = client.users.cache.get('788260234409672754');
+        const owner = client.users.cache.get('820532177853743105');
         const query = args.join(' ');
         const embedBugnya = new MessageEmbed()
             .setTitle(`New Bugs Reported!`)

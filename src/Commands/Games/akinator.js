@@ -5,7 +5,7 @@ module.exports = {
     name: 'akinator',
     description: 'Play akinator games',
     aliases: ['aki'],
-    emoji: '🤔',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

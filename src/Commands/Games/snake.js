@@ -5,7 +5,7 @@ module.exports = {
     name: 'snake',
     description: 'Play snake game',
     aliases: ['snakecord'],
-    emoji: '🐍',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

@@ -4,7 +4,7 @@ module.exports = {
     name: 'fishing-together',
     description: 'Play Fishing Together Game in a Voice Channel',
     aliases: [],
-    emoji: '🎣',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES', 'CONNECT'],
     /**
@@ -15,7 +15,7 @@ module.exports = {
     run: async (client, message, args) => {
         const voicechannel = message.member.voice.channelId;
         const notInVc = new MessageEmbed()
-            .setDescription('<:tickNo:863367014092898314> | You need to be in a voice channel to run this command!')
+            .setDescription('❌ | You need to be in a voice channel to run this command!')
             .setColor('RED');
         if (!voicechannel) return message.channel.send({ embeds: [notInVc] });
         client.discordTogether.createTogetherCode(voicechannel, 'fishing').then(async invite => {

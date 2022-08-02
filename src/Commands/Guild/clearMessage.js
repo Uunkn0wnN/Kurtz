@@ -4,7 +4,7 @@ module.exports = {
     name: 'clear',
     description: 'Clear and Delete Messages',
     aliases: ['cls', 'purge'],
-    emoji: '🧹',
+    emoji: '**>**',
     userperm: ['MANAGE_MESSAGES'],
     botperm: ['MANAGE_MESSAGES'],
     /**
@@ -28,7 +28,7 @@ module.exports = {
                 let embed = new MessageEmbed()
                     .setColor('0x#00ffff')
                     .setDescription(
-                        `<a:verified_green:863233286690832404>  Cleared **${m.size}**/**${amount}** messages!`
+                        `✅  Cleared **${m.size}**/**${amount}** messages!`
                     );
 
                 message.channel.send({ embeds: [embed] }).then(msg => msg.delete({ timeout: 4000 }));

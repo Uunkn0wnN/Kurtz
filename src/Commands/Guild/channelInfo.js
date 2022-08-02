@@ -4,7 +4,7 @@ module.exports = {
     name: 'channelinfo',
     description: 'Returns Information about Channels',
     aliases: ['channel'],
-    emoji: '💬',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

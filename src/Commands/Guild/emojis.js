@@ -4,7 +4,7 @@ module.exports = {
     name: 'emojilist',
     description: 'List all emojis',
     aliases: ['emojis'],
-    emoji: '<:add_reaction:863214931599818783>',
+    emoji: '**>**',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -33,7 +33,7 @@ module.exports = {
                 }
             });
             let emn = new MessageEmbed();
-            emn.setTitle(`<:add_reaction:863214931599818783> Showing Emojis of ${message.guild.name}`);
+            emn.setTitle(`Showing Emojis of ${message.guild.name}`);
             emn.setThumbnail(message.guild.iconURL({ dynamic: true, format: 'png', size: 512 }));
             emn.setDescription(
                 `**Animated [${Animated}]**:\n${EmojisAnimated}\n\n**Standard [${EmojiCount}]**:\n${Emojis}`

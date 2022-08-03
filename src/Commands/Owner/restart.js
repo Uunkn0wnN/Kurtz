@@ -5,7 +5,7 @@ module.exports = {
     name: 'restart',
     description: 'Restart the client',
     aliases: ['reboot'],
-    emoji: '',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -29,7 +29,7 @@ module.exports = {
             ],
         });
 
-        const masterLogger = client.channels.cache.get('855151075287498792');
+        const masterLogger = client.channels.cache.get('882810870508433411');
         if (masterLogger) {
             await masterLogger.send({
                 embeds: [

@@ -5,7 +5,7 @@ module.exports = {
     name: 'leaderboard',
     description: 'See Levelling Leaderboards',
     aliases: ['lb', 'levels'],
-    emoji: '📊',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

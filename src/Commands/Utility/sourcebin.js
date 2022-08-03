@@ -5,7 +5,7 @@ module.exports = {
     name: 'sourcebin',
     description: 'Upload a Javascript code to Sourcebin',
     aliases: ['srcbin', 'sourceb.in'],
-    emoji: '📃',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -27,7 +27,7 @@ module.exports = {
             ],
             {
                 title: `Result Code`,
-                description: `Code uploaded by Exxyll Discord Bot`,
+                description: `Code uploaded by Kurtz Discord Bot`,
             }
         ).then(value => {
             message.channel.send({

@@ -5,7 +5,7 @@ module.exports = {
     name: 'covid',
     description: 'Returns covid statistics at specified country',
     aliases: ['corona', 'covid19'],
-    emoji: '😷',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

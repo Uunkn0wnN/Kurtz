@@ -5,7 +5,7 @@ module.exports = {
     name: 'urban',
     description: 'Search meaning of slang words, and phrases',
     aliases: ['urban-dictionary'],
-    emoji: '📚',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

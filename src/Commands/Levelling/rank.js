@@ -5,7 +5,7 @@ const canvacord = require('canvacord');
 module.exports = {
     name: 'rank',
     description: 'See your current level',
-    emoji: '📈',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

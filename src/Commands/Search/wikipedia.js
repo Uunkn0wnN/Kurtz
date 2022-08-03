@@ -5,7 +5,7 @@ module.exports = {
     name: 'wikipedia',
     description: 'Search something to Wikipedia',
     aliases: ['wiki'],
-    emoji: '📔',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

@@ -4,7 +4,7 @@ module.exports = {
     name: 'avatar',
     description: "Show user's avatar",
     aliases: ['pfp'],
-    emoji: '👤',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

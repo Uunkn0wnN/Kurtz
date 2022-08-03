@@ -5,7 +5,7 @@ module.exports = {
     name: 'set-welcome',
     description: 'Set Welcoming System Channel',
     aliases: ['set-welcoming'],
-    emoji: '➕',
+    emoji: '**>** ',
     userperm: ['MANAGE_GUILD'],
     botperm: ['SEND_MESSAGES'],
     /**

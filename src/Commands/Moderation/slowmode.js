@@ -4,7 +4,7 @@ module.exports = {
     name: 'slowmode',
     description: 'Slowmode a channel. Where the command is executed',
     aliases: ['set-slowmode'],
-    emoji: '⏳',
+    emoji: '**>** ',
     userperm: ['MANAGE_CHANNELS', 'SEND_MESSAGES'],
     botperm: ['MANAGE_CHANNELS', 'SEND_MESSAGES'],
     /**

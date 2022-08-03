@@ -4,7 +4,7 @@ module.exports = {
     name: 'checkperms',
     description: 'Check user permission at current guild & channels',
     aliases: ['userperms'],
-    emoji: '✅',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

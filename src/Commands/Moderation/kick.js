@@ -4,7 +4,7 @@ module.exports = {
     name: 'kick',
     description: 'Kick a user from the server',
     aliases: [],
-    emoji: '⛏️',
+    emoji: '⛏**>** ',
     userperm: ['KICK_MEMBERS', 'SEND_MESSAGES'],
     botperm: ['KICK_MEMBERS', 'SEND_MESSAGES'],
     /**

@@ -5,7 +5,7 @@ module.exports = {
     name: 'remove-welcome',
     description: 'Remove / Disable Welcoming Feature',
     aliases: ['remove-welcoming'],
-    emoji: '🗑️',
+    emoji: '**>** ',
     userperm: ['MANAGE_GUILD'],
     botperm: ['MANAGE_GUILD'],
     /**

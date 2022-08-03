@@ -4,7 +4,7 @@ module.exports = {
     name: 'unban',
     description: 'Unban a user from Server by their User ID',
     aliases: ['unbonk'],
-    emoji: '🔧',
+    emoji: '**>** ',
     userperm: ['BAN_MEMBERS', 'SEND_MESSAGES'],
     botperm: ['BAN_MEMBERS', 'SEND_MESSAGES'],
     /**

@@ -6,7 +6,7 @@ module.exports = {
     name: 'terminal',
     description: 'Runs a Terminal Command',
     aliases: ['sh', 'bash', 'zsh'],
-    emoji: '',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

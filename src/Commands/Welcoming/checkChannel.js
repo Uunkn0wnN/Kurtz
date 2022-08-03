@@ -5,7 +5,7 @@ module.exports = {
     name: 'check-welcome',
     description: 'Check where is Welcoming System is Enabled',
     aliases: ['check-welcoming'],
-    emoji: '🤔',
+    emoji: '**>** ',
     userperm: ['MANAGE_GUILD'],
     botperm: ['SEND_MESSAGES'],
     /**

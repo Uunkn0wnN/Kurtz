@@ -6,7 +6,7 @@ module.exports = {
     name: 'userinfo',
     description: 'Returns user information',
     aliases: ['user-info', 'userinf', 'profile'],
-    emoji: '👤',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

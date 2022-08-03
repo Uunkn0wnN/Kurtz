@@ -5,7 +5,7 @@ module.exports = {
     name: 'banner',
     description: 'Get and see user banner',
     aliases: [],
-    emoji: '🖼️',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

@@ -6,7 +6,7 @@ module.exports = {
     name: 'lockdown',
     description: 'Lockdown the server',
     aliases: ['lock-server'],
-    emoji: '🔒',
+    emoji: '**>** ',
     userperm: ['MANAGE_GUILD', 'SEND_MESSAGES'],
     botperm: ['MANAGE_GUILD', 'SEND_MESSAGES'],
     /**

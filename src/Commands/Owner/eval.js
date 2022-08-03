@@ -6,7 +6,7 @@ module.exports = {
     name: 'eval',
     description: 'Evaluate some code',
     aliases: ['evaluate'],
-    emoji: '',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

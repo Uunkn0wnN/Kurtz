@@ -7,7 +7,7 @@ module.exports = {
     name: 'anime-src',
     description: 'Search an Anime from Image',
     aliases: ['anime-img-src', 'anime-image-search'],
-    emoji: '🔍',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

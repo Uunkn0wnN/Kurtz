@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 module.exports = {
 
         name: 'poll',
-        description: 'poll',
+        description: 'poll command',
         emoji: '**>** ',
         userperm: ['SEND_MESSAGES'],
         botperm: ['SEND_MESSAGES'],

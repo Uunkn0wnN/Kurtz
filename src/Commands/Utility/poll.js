@@ -24,15 +24,15 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor("GREEN")
             .setTitle(`❯ Poll For ${message.guild.name} Guild`)
-                        .addField(`❯ 🧧Poll Message`, `${poll}`)
-                        .addField(`❯ ✨ Owner`, `${message.author.username}`)
+                        .addField(`❯ Poll Message`, `${poll}`)
+                        .addField(`❯ Owner`, `${message.author.username}`)
                 .setImage("https://cdn.discordapp.com/attachments/939679656196603954/946670806191198258/standard.gif")
             .setFooter(message.member.displayName, message.author.displayAvatarURL())
            
  var msg = await   message.channel.send({ embeds: [embed] })
 
-        await msg.react('981998780138270820');
-        await msg.react('981998760139845712');
+        await msg.react('🔼');
+        await msg.react('🔽');
 
         message.delete({ timeout: 1000 });
     }

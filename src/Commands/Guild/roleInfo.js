@@ -5,7 +5,7 @@ module.exports = {
     name: 'roleinfo',
     description: 'Returns Role Information',
     aliases: ['roleinf'],
-    emoji: '<:role:863214921574907915>',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -27,7 +27,7 @@ module.exports = {
         const guildIcon = client.guilds.cache.get(message.guild.id).iconURL({ dynamic: true, size: 512 });
         if (!mentionedRole) return message.reply('Please mention or paste role id!');
         const embed = new MessageEmbed()
-            .setTitle(`<:role:863214921574907915> Role Information for ${mentionedRole.name}`)
+            .setTitle(`Role Information for ${mentionedRole.name}`)
             .setColor('#800080')
             .setThumbnail(guildIcon)
             .addField('Role ID', `${mentionedRole.id}`)

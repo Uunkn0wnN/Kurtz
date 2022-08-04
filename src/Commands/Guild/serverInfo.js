@@ -25,15 +25,15 @@ module.exports = {
             .setThumbnail(message.guild.iconURL({ dynamic: true, size: 512 }))
             .addField(
                 `General Information`,
-                `Name : ${message.guild.name}\n🆔 ID : ${
+                `Name : ${message.guild.name}\nID : ${
                     message.guild.id
-                }\n👑 Owner : ${(await message.guild.fetchOwner()).user}`
+                }\nOwner : ${(await message.guild.fetchOwner()).user}`
             )
             .addField(
                 `Counts`,
-                `Members Total : ${message.guild.memberCount.toString()}\n<:role:863214921574907915> Role : ${
+                `Members Total : ${message.guild.memberCount.toString()}\nRole : ${
                     roles.length
-                }\n💬 Channels : ${
+                }\nChannels : ${
                     message.guild.channels.cache.filter(ch => ch.type === 'text' || ch.type === 'voice').size
                 } total (Text : ${message.guild.channels.cache.filter(ch => ch.type === 'text').size}, Voice : ${
                     message.guild.channels.cache.filter(ch => ch.type === 'voice').size

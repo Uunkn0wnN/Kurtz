@@ -4,7 +4,7 @@ const moment = require('moment');
 module.exports = {
     name: 'serverinfo',
     description: 'Returns Information about Server',
-    emoji: '🗂',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**
@@ -25,31 +25,31 @@ module.exports = {
             .setThumbnail(message.guild.iconURL({ dynamic: true, size: 512 }))
             .addField(
                 `General Information`,
-                `<:partnernew:863214932585873438> Name : ${message.guild.name}\n🆔 ID : ${
+                `Name : ${message.guild.name}\n🆔 ID : ${
                     message.guild.id
                 }\n👑 Owner : ${(await message.guild.fetchOwner()).user}`
             )
             .addField(
                 `Counts`,
-                `<:members:863214932883800138> Members Total : ${message.guild.memberCount.toString()}\n<:role:863214921574907915> Role : ${
+                `Members Total : ${message.guild.memberCount.toString()}\n<:role:863214921574907915> Role : ${
                     roles.length
                 }\n💬 Channels : ${
                     message.guild.channels.cache.filter(ch => ch.type === 'text' || ch.type === 'voice').size
                 } total (Text : ${message.guild.channels.cache.filter(ch => ch.type === 'text').size}, Voice : ${
                     message.guild.channels.cache.filter(ch => ch.type === 'voice').size
-                })\n<:add_reaction:863214931599818783> Emojis : ${message.guild.emojis.cache.size} (Regular : ${
+                })\nEmojis : ${message.guild.emojis.cache.size} (Regular : ${
                     message.guild.emojis.cache.filter(e => !e.animated).size
                 }, Animated : ${message.guild.emojis.cache.filter(e => e.animated).size})`
             )
             .addField(
                 `Additional Information`,
-                `📅 Created at : ${moment(message.guild.createdTimestamp).format('LLL')} | \`${moment(
+                `Created at : ${moment(message.guild.createdTimestamp).format('LLL')} | \`${moment(
                     message.guild.createdTimestamp
-                ).fromNow()}\`\n🗺️ Region : ${message.guild.region}\n<a:boostr:864431598567817216> Boost Tier : ${
+                ).fromNow()}\`\nRegion : ${message.guild.region}\nBoost Tier : ${
                     message.guild.premiumTier ? `Tier ${message.guild.premiumTier}` : 'None'
-                }\n<:boost:862677231696347146> Boost Count : ${
+                }\nBoost Count : ${
                     message.guild.premiumSubscriptionCount.toString() || '0'
-                }\n🔐 Verification Level : ${message.guild.verificationLevel.toString()}\n🔗 Vanity URL : ${vanityInvite}`
+                }\nVerification Level : ${message.guild.verificationLevel.toString()}\nVanity URL : ${vanityInvite}`
             )
             .addField(
                 `Roles [${roles.length}]`,

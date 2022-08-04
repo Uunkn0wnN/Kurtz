@@ -4,7 +4,7 @@ module.exports = {
     name: 'idban',
     description: 'Ban a user with their ID',
     emoji: '**>** ',
-    userperm: ['SEND_MESSAGES'],
+    userperm: ['BAN_MEMBERS'],
     botperm: ['BAN_MEMBERS'],
     run: async (client, message, args) => {
 

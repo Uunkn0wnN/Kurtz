@@ -3,7 +3,7 @@ const { Client, Message, MessageEmbed, WebhookClient } = require('discord.js');
 module.exports = {
     name: 'suggest',
     description: 'Suggest a Features or Something to Developers.',
-    emoji: '❔',
+    emoji: '**>** ',
     userperm: ['SEND_MESSAGES'],
     botperm: ['SEND_MESSAGES'],
     /**

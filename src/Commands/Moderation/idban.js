@@ -4,8 +4,8 @@ module.exports = {
     name: 'idban',
     description: 'Ban a user with their ID',
     emoji: '**>** ',
-    userperm: ['BAN_MEMBERS'],
-    botperm: ['BAN_MEMBERS'],
+    userperm: ['BAN_MEMBERS', 'SEND_MESSAGES'],
+    botperm: ['BAN_MEMBERS', 'SEND_MESSAGES'],
     run: async (client, message, args) => {
 
         if (!message.member.permissions.has("BAN_MEMBERS")) return message.reply("You Don't Have The Permission To ban A User!");

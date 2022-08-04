@@ -25,7 +25,7 @@ module.exports = {
       return message.channel.send(`You Can't Hack Your Self Lmao!`);
 
     let embed = new MessageEmbed()
-      .setColor(#800080)
+      .setColor(0x0099FF)
       .setTitle(`Hack Status: Completed`)
       .setDescription(
         `Name: ${Member.user.username} | ID: ${

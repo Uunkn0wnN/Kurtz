@@ -56,7 +56,7 @@ module.exports = {
     await message.channel.send(`Hack Status: 90%`);
 
     setTimeout(function() {
-      message.channel.send(embed);
+      message.channel.send({ embeds: [embed] });
     }, 5000);
 
     //End

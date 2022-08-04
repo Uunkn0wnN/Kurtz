@@ -13,7 +13,7 @@ module.exports = {
         if (!args[0]) return message.reply("You need to specify a user ID");
 
       let user = args[0];
-      let reden = args[1]  'No reason given.'
+      let reden = args[1] || 'No reason given.'
 
       let ban = await message.guild.members.ban(user, {
         reden

@@ -4,7 +4,7 @@ module.exports = {
     name: 'nuke',
     description: 'Nuke a Channel',
     aliases: ['nuclear'],
-    emoji: '💣',
+    emoji: '**>** ',
     userperm: ['MANAGE_CHANNELS'],
     botperm: ['MANAGE_CHANNELS'],
     /**

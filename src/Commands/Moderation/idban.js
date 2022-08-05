@@ -21,7 +21,7 @@ module.exports = {
           const embed1 = new MessageEmbed()
           .setColor('#8BED7F')
           .setTitle(`:white_check_mark: Banned ${ban.tag || "Unknown User"})
-          .setDescription(`Reason: ${reden}`)
+          .setDescription(Reason: ${reden}`)
           return message.reply({ embeds: [embed1]});
         },
       };

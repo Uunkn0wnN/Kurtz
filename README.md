@@ -20,14 +20,14 @@ $ pnpm run setup-env
 # Fill requested information & you are ready to go
 ```
 
-###🔥 Use this if you use replit
+### 🔥 Use this if you use replit
 ```bash
 • Put it in index.js line 1 :
 const express = require('express')
 const app = express();
 const port = 4000
 
-app.get('/', (req, res) => res.send('hehe boi!!'))
+app.get('/', (req, res) => res.send('https://github.com/Uunkn0wnN'))
 
 app.listen(port, () =>
 console.log(`Your bot is listening a http://localhost:${port}`)
@@ -35,7 +35,7 @@ console.log(`Your bot is listening a http://localhost:${port}`)
 ````
 ### 🔥 example 
 ```bash
-### •before
+ •before
 const { Client, Collection } = require('discord.js');
 const { DiscordTogether } = require('discord-together');
 const fs = require('fs');
@@ -47,12 +47,12 @@ const client = new Client({
 });
 module.exports = client;
 
-### •after
+ •after
 const express = require('express')
 const app = express();
 const port = 4000
 
-app.get('/', (req, res) => res.send('hehe boi!!'))
+app.get('/', (req, res) => res.send('https://github.com/Uunkn0wnN'))
 
 app.listen(port, () =>
 console.log(`Your bot is listening a http://localhost:${port}`)

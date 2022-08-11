@@ -57,7 +57,7 @@ module.exports = {
                     'Please choose a category in the dropdown menu!\n\nFor code source information [Github](https://github.com/Uunkn0wnN)\nSupport me [support server](https://discord.gg/UFTXkxRrWT)'
                 )
                 .setTimestamp()
-	        .setFooter({ text: 'Kurtz Bot', iconURL: 'https://i.imgur.com/AfFp7pu.png' });
+	        .setImg('LINK IMG NYA')
                 .setColor(color);
 
             const components = state => [

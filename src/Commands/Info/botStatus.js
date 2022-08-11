@@ -24,7 +24,7 @@ module.exports = {
         }
         const core = os.cpus()[0];
         const embed = new MessageEmbed()
-            .setTitle(`Exxyll Stats`)
+            .setTitle(`Kurtz Stats`)
             .setURL(client.web)
             .setThumbnail(client.user.displayAvatarURL({ size: 512, format: 'png' }))
             .setColor(message.guild.me.displayHexColor || client.color)

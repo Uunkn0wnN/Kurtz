@@ -32,7 +32,7 @@ module.exports = {
                 }
             });
             let emn = new MessageEmbed();
-            emn.setTitle(`<:add_reaction:863214931599818783> Showing Emojis of ${interaction.guild.name}`);
+            emn.setTitle(`Showing Emojis of ${interaction.guild.name}`);
             emn.setThumbnail(interaction.guild.iconURL({ dynamic: true, format: 'png', size: 512 }));
             emn.setDescription(
                 `**Animated [${Animated}]**:\n${EmojisAnimated}\n\n**Standard [${EmojiCount}]**:\n${Emojis}`

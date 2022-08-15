@@ -3,7 +3,7 @@ const https = require('https');
 
 module.exports = {
     name: 'contributors',
-    description: 'Lists of all exxyll-origin contributors',
+    description: 'Lists of all contributors',
     userperm: 'SEND_MESSAGES',
     botperm: 'SEND_MESSAGES',
     /**

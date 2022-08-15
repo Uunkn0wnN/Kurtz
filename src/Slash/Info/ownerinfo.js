@@ -11,19 +11,19 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, interaction, args) => {
-        const owner = client.users.cache.get('788260234409672754');
+        const owner = client.users.cache.get('820532177853743105');
         const embed1 = new MessageEmbed()
-            .setTitle(`<:owner:864432628928217098> Owner Info`)
+            .setTitle(`👑 Owner Info`)
             .setThumbnail(owner.displayAvatarURL({ dynamic: true }))
-            .addField(`Name`, `Gifaldy Azka`)
-            .addField(`Discord Tag`, `Falcxxdev#0001`)
+            .addField(`Name`, `スマイル`)
+            .addField(`Discord Tag`, `⃟҉҈̥̥̥م_スマイル#0359`)
             .addField(`Working on`, `Bot Development, Website Development, Feature Development`)
-            .addField(`Location`, `Bandung, Indonesia`)
+            .addField(`Location`, `Jakarta, Indonesia`)
             .addField(
                 `Social Media`,
-                `[Website](https://gifaldyazka.is-a.dev) | [GitHub](https://github.com/gifaldyazkaa) | [Twitter](https://twitter.com/falcxxr)`
+                `[Website](https://shiroweb-dashboard.221447.repl.co) | [GitHub](https://github.com/Uunkn0wnN) | [Twitter](https://twitter.com/22_1447)`
             )
-            .addField(`Buy me a Coffee`, `[Buy me a Coffee Here](https://buymeacoffee.com/gifaldyazkaa)`)
+            .addField(` Advertising`, `[sponsor](https://discord.gg/YzpFy77yB7)`)
             .setColor('PURPLE');
 
         interaction.followUp({ embeds: [embed1] });

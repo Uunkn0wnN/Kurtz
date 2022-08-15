@@ -14,19 +14,19 @@ module.exports = {
     run: async (client, interaction, args) => {
         try {
             const emojis = {
-                config: '⚙️',
-                developer: '<:developer:855302873785040897>',
-                fun: '<:teri_funny:876637356986343440>',
-                games: '🎮',
-                guild: '<:partnernew:863214932585873438>',
-                info: 'ℹ️',
-                levelling: '⏫',
-                moderation: '⚒️',
-                owner: '👑',
-                search: '🔍',
-                user: '👤',
-                utility: '📀',
-                welcoming: '👋',
+                config: '🤖',
+                developer: '🤖',
+                fun: '🤖',
+                games: '🤖',
+                guild: '🤖',
+                info: '🤖',
+                levelling: '🤖',
+                moderation: '🤖',
+                owner: '🤖',
+                search: '🤖',
+                user: '🤖',
+                utility: '🤖',
+                welcoming: '🤖',
             };
             const directories = [...new Set(client.commands.map(cmd => cmd.directory))];
 
@@ -50,12 +50,14 @@ module.exports = {
             });
 
             const embed = new MessageEmbed()
-                .setTitle('Exxyll Help Desk')
+                .setTitle('kurtz Help Desk')
                 .setThumbnail(client.user.displayAvatarURL({ size: 512 }))
                 .setDescription(
                     'Please choose a category in the dropdown menu!\n\nFor information about usage, or something about commands, You can [Read the Docs](https://github.com/gifaldyazkaa/exxyll-origin/blob/master/docs) for more info!'
                 )
-                .setColor('BLUE');
+                .setTimestamp()
+	        .setImg('https://media.discordapp.net/attachments/974820861456564284/1008593703197221026/20220815_112910.jpg')
+                .setColor('BLUE')
 
             const components = state => [
                 new MessageActionRow().addComponents(

@@ -26,19 +26,19 @@ module.exports = {
             .setThumbnail(interaction.guild.iconURL({ dynamic: true, size: 512 }))
             .addField(
                 `General Information`,
-                `<:partnernew:863214932585873438> Name : ${interaction.guild.name}\n🆔 ID : ${
+                `Name : ${interaction.guild.name}\n🆔 ID : ${
                     interaction.guild.id
-                }\n<:owner:864432628928217098> Owner : ${(await interaction.guild.fetchOwner()).user}`
+                }\nOwner : ${(await interaction.guild.fetchOwner()).user}`
             )
             .addField(
                 `Counts`,
-                `<:members:863214932883800138> Members Total : ${interaction.guild.memberCount.toString()}\n<:role:863214921574907915> Role : ${
+                `Members Total : ${interaction.guild.memberCount.toString()}\n<:role:863214921574907915> Role : ${
                     roles.length
-                }\n<:channel:863363700463632414> Channels : ${
+                }\nChannels : ${
                     interaction.guild.channels.cache.filter(ch => ch.type === 'text' || ch.type === 'voice').size
                 } total (Text : ${interaction.guild.channels.cache.filter(ch => ch.type === 'text').size}, Voice : ${
                     interaction.guild.channels.cache.filter(ch => ch.type === 'voice').size
-                })\n<:add_reaction:863214931599818783> Emojis : ${interaction.guild.emojis.cache.size} (Regular : ${
+                })\nEmojis : ${interaction.guild.emojis.cache.size} (Regular : ${
                     interaction.guild.emojis.cache.filter(e => !e.animated).size
                 }, Animated : ${interaction.guild.emojis.cache.filter(e => e.animated).size})`
             )
@@ -46,11 +46,11 @@ module.exports = {
                 `Additional Information`,
                 `📅 Created at : ${moment(interaction.guild.createdTimestamp).format('LLL')} | \`${moment(
                     interaction.guild.createdTimestamp
-                ).fromNow()}\`\n<:maps_logo:864435720507359232> Region : ${
+                ).fromNow()}\`\nRegion : ${
                     interaction.guild.region
-                }\n<a:boostr:864431598567817216> Boost Tier : ${
+                }\nBoost Tier : ${
                     interaction.guild.premiumTier ? `Tier ${interaction.guild.premiumTier}` : 'None'
-                }\n<:boost:862677231696347146> Boost Count : ${
+                }\nBoost Count : ${
                     interaction.guild.premiumSubscriptionCount.toString() || '0'
                 }\n🔐 Verification Level : ${interaction.guild.verificationLevel.toString()}\n🔗 Vanity URL : ${vanityInvite}`
             )

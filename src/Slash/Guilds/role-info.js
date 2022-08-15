@@ -32,7 +32,7 @@ module.exports = {
         const mentionedRole = client.guilds.cache.get(interaction.guild.id).roles.cache.get(role);
         const guildIcon = client.guilds.cache.get(interaction.guild.id).iconURL({ dynamic: true, size: 512 });
         const embed = new MessageEmbed()
-            .setTitle(`<:role:863214921574907915> Role Information for ${mentionedRole.name}`)
+            .setTitle(`Role Information for ${mentionedRole.name}`)
             .setColor('#800080')
             .setThumbnail(guildIcon)
             .addField('Role ID', `${mentionedRole.id}`)

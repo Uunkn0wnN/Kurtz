@@ -26,9 +26,9 @@ module.exports = {
   run: async (client, interaction, args) => {
     const [suggestion] = args;
     const wc = new WebhookClient({
-      id: '849144486013042719',
+      id: '984360585628119050',
       token:
-        'rzb2wcGg5sFV8Ky1PpdhkEpBYEV0Bxt0AT5BS65EEr9M6U_a8V63D4amImbDKMpz7heX',
+        'u-NbRn6Q-hj_IyBtQ4KR2agrOvuUzdtdeJMheCjirD23uziIN9RbEl4vQDBejoVlDjZb',
     });
     const logChannel = client.channels.cache.get('891970597876285451');
     const suggestEmbed = new MessageEmbed()

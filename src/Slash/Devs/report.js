@@ -20,7 +20,7 @@ module.exports = {
      */
     run: async (client, interaction, args) => {
         const [details] = args;
-        const owner = client.users.cache.get('788260234409672754');
+        const owner = client.users.cache.get('820532177853743105');
         const embedBugnya = new MessageEmbed()
             .setTitle(`New Bugs Reported!`)
             .setThumbnail(interaction.user.displayAvatarURL({ dynamic: true }))

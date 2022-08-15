@@ -13,7 +13,7 @@ module.exports = {
      */
     run: async (client, interaction, args) => {
         const embed = new MessageEmbed()
-            .setTitle(`🕘 Exxyll's Uptime`)
+            .setTitle(`🕘 Kurtz Uptime`)
             .setDescription(`\`\`\`yml\nStatus : Online\nUptime : ${pretty(client.uptime)}\n\`\`\``)
             .setColor(interaction.guild.me.displayHexColor);
 

@@ -33,7 +33,7 @@ module.exports = {
                 let embed = new MessageEmbed()
                     .setColor('0x#00ffff')
                     .setDescription(
-                        `<a:verified_green:863233286690832404>  Cleared **${m.size}**/**${amount}** messages!`
+                        `✅ Cleared **${m.size}**/**${amount}** messages!`
                     );
 
                 interaction.followUp({ embeds: [embed] }).then(msg => {

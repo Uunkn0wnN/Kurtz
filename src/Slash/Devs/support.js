@@ -2,7 +2,7 @@ const { CommandInteraction, Client, MessageEmbed } = require('discord.js');
 
 module.exports = {
     name: 'support',
-    description: 'Support & Donate to the Chef at the back-screen of Exxyll!',
+    description: 'Support to the Chef at the back-screen of Exxyll!',
     userperm: 'SEND_MESSAGES',
     botperm: 'SEND_MESSAGES',
     /**
@@ -14,7 +14,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setTitle('Support the Developers!')
             .setDescription(
-                'Support or Donate the Developers to help keeping this project alive!\n\n[Buy me a Coffee](https://ko-fi.com/gifaldyazkaa)'
+                'Support the Developers to help keeping this project alive!\n\n[Discord](https://discord.gg/UFTXkxRrWT)'
             )
             .setFooter(interaction.user.tag)
             .setColor('BLUE')

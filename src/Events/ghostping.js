@@ -1,6 +1,6 @@
 
 const { MessageEmbed } = require("discord.js");
-const client = require("..");
+const client = require("../../index");
 
 client.on("messageDelete", async (message) => {
   if (!message.guild || message.author.bot) return;

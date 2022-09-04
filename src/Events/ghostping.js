@@ -15,11 +15,11 @@ client.on("messageDelete", async (message) => {
           .setTitle(`💡 Ghostping Detected`)
           .addFields([
             {
-              name: `👨 Author`,
+              name: `> Message_Author`,
               value: `${message.author}`,
             },
             {
-              name: `📜 Contant`,
+              name: `> Ping`,
               value: `\`\`\`\n ${message.cleanContent.toString()} \`\`\``,
             },
           ]),

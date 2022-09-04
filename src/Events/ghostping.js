@@ -12,15 +12,15 @@ client.on("messageDelete", async (message) => {
       embeds: [
         new MessageEmbed()
           .setColor("RANDOM")
-          .setTitle(`💡 Ghostping Detected`)
+          .setTitle(`**Ghostping Detected**`)
           .addFields([
             {
-              name: `> Message_Author`,
+              name: `> Message-Author`,
               value: `${message.author}`,
             },
             {
               name: `> Ping`,
-              value: `\`\`\`\n ${message.cleanContent.toString()} \`\`\``,
+              value: `${message.cleanContent.toString()}`,
             },
           ]),
       ],

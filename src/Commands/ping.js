@@ -1,7 +1,7 @@
 const {  client, Message, MessageActionRow, MessageButton,MessageSelectMenu, MessageEmbed } = require("discord.js")
 const db = require("quick.db");
 module.exports = {
-    name: 'new-ping',
+    name: 'ping',
     description: 'Returns Websocket Ping Latency',
     emoji: '**>** ',
     run: async (client, message, args) => {
@@ -17,7 +17,7 @@ module.exports = {
     
         const embed = new MessageEmbed()
         .setTitle(`<:sgrerhfde:964522833168457748> • Ping`)
-            .setDescription(`**My Ping Is ↙**`)
+            .setDescription(`**my ping ↙**`)
         
             .setColor(`BLUE`)
             .setFooter(`Reuqested By • ${message.author.username}`)

@@ -54,7 +54,7 @@ module.exports = {
                 .setTitle('Kurtz Bot')
                 .setThumbnail(client.user.displayAvatarURL({ size: 512 }))
                 .setDescription(
-                    'Please choose a category in the dropdown menu!\n\nFor code source information [Github](https://github.com/Uunkn0wnN)\nSupport me [support server](https://discord.gg/UFTXkxRrWT)\n follow me [instagram](https:instagram.com/22.1447)\n\n Hello I am kurtz I will help you'
+                    'Please choose a category in the dropdown menu!\n\nFor code source information [Github](https://github.com/Uunkn0wnN)\nSupport me [support server](https://discord.gg/UFTXkxRrWT)\nfollow me [instagram](https:instagram.com/22.1447)\n\nHello I am kurtz I will help you'
                 )
                 .setTimestamp()
                 .setColor(color);

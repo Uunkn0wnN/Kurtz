@@ -38,7 +38,7 @@ module.exports = async (client) => {
         `PEKOB.NET`,
         `anjing lu`,
         `Nazarick Clan`,
-       `k!help | ${guilds} servers | ${channels} channels | ${users} owner`,
+        `k!help | ${guilds} servers | ${channels} channels | ${users} owner`,
     ]
 
     setInterval(() => {

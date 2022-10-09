@@ -31,6 +31,21 @@ client.prefix = async message => {
     } catch (err) {}
 };
 
+const { joinVoiceChannel } = require('@discordjs/voice');
+client.on("ready", async c => {
+    setInterval(() => {
+  const channelid = "1028683162647273642"
+  const channel = client.channels.cache.get(channelid);
+  if (!channel) return
+  const connection = joinVoiceChannel({
+    channelId: channel.id,
+    guildId: channel.guild.id,
+    adapterCreator: channel.guild.voiceAdapterCreator,
+  });
+  connection;
+}, 1000 * 60);
+});
+
 // Initialize project
 require('./src/Handler')(client);
 
@@ -40,4 +55,4 @@ require('./src/Utility/Levelling');
 // Connect to database
 require('./src/Handler/Mongoose');
 
-client.login(process.env.TOKEN);
+client.login(process.env.TOKEN); 

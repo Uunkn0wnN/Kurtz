@@ -46,18 +46,6 @@ client.on("ready", async c => {
 }, 1000 * 60);
 });
 
-  .then(w=>{w.send(args)
-setTimeout (function aa(){w.delete()},1000)
-})}
-else{
-  message.reply("Provide a message")
-}}
-else{
-  message.reply("mention a user")
-}
-}
-  
-})
 
 // Initialize project
 require('./src/Handler')(client);

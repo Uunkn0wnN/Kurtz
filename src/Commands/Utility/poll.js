@@ -24,8 +24,8 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor("GREEN")
             .setTitle(`❯ Poll For ${message.guild.name} Guild`)
-                        .addField(`❯ Poll Message`, `${poll}`)
-                        .addField(`❯ Owner`, `${message.author.username}`)
+                        .addField(`❯ Poll Message`, `> ${poll}`)
+                        .addField(`❯ Maker`, `> ${message.author.username}`)
                 .setImage("https://cdn.discordapp.com/attachments/939679656196603954/946670806191198258/standard.gif")
             .setFooter(message.member.displayName, message.author.displayAvatarURL())
            

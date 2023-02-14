@@ -29,7 +29,7 @@ module.exports = {
             ],
         });
 
-        const masterLogger = client.channels.cache.get('882810870508433411');
+        const masterLogger = client.channels.cache.get('1065453666812821604');
         if (masterLogger) {
             await masterLogger.send({
                 embeds: [

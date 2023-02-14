@@ -16,7 +16,7 @@ module.exports = {
         const embeds = new MessageEmbed()
             .setTitle('Support the Developer!')
             .setDescription(
-                'Support or Donate the Developers to help keeping this project alive!\n\n[join my discord server](https://discord.gg/UFTXkxRrWT)'
+                'Support or Donate the Developers to help keeping this project alive!\n\n[join my discord server](https://local-ntp/COMING-SOON)'
             )
             .setFooter(message.author.tag)
             .setColor('BLUE')

@@ -12,7 +12,7 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, message, args) => {
-        const owner = client.users.cache.get('820532177853743105');
+        const owner = client.users.cache.get('1047353414545321995');
         const query = args.join(' ');
         const embedBugnya = new MessageEmbed()
             .setTitle(`New Bugs Reported!`)

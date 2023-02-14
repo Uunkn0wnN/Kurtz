@@ -17,7 +17,7 @@ module.exports = {
     run: async (client, message, args) => {
         const query = args.join(' ');
         if (!query) return message.reply('Please specify a title to search!');
-        fetch(`https://api.jikan.moe/v3/search/anime?q=${query}`)
+        fetch(`https://api.jikan.moe/v4/anime?q=${query}`)
             .then(res => res.json())
             .then(body => {
                 const title = body.results[0].title;

@@ -20,15 +20,15 @@ module.exports = {
         fetch(`https://api.jikan.moe/v4/anime?q=${query}`)
             .then(res => res.json())
             .then(body => {
-                const title = body.data[0].title;
-                const mal_url = body.data[0].url;
-                const imgae = body.data[0].image_url;
-                const synopsis = body.data[0].synopsis;
-                const type = body.data[0].type;
-                const episode = body.data[0].episodes;
-                const score = body.data[0].score;
-                const start_date = body.results[0].start_date;
-                const rate = body.results[0].rated || 'Unknown';
+                const title = ${body.data[0].title};
+                const mal_url = ${body.data[0].url};
+                const imgae = ${body.data[0].image_url};
+                const synopsis = ${body.data[0].synopsis};
+                const type = ${body.data[0].type};
+                const episode = ${body.data[0].episodes};
+                const score = ${body.data[0].score};
+                const start_date = ${body.results[0].start_date};
+                const rate = ${body.results[0].rated || 'Unknown'};
 
                 const embed = new MessageEmbed()
                     .setTitle(title)

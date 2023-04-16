@@ -1,6 +1,6 @@
 
 hidden = [".config"]
-run = "npm start"
+run = "nvm install 16.12.0 && nvm use 16.12.0 && npm start"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
